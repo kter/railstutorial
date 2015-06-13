@@ -55,3 +55,4 @@ describe "Static pages" do
     expect(page).to have_title("Ruby on Rails Tutorial Sample App | Contact")
   end
 end
+
