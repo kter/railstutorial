@@ -17,3 +17,6 @@
 
 # Ignore the secret key
 /.secret
+
+# Ignore gem files
+/vendor/bundle
