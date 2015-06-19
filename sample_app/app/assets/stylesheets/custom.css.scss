@@ -3,6 +3,7 @@
 /* universal */
 
 $lightGray: #999;
+$grayMediumLight: #eaeaea;
 
 html {
   overflow-y: scroll;
@@ -22,10 +23,9 @@ textarea {
 
 .center {
   text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 /* typography */
@@ -67,11 +67,10 @@ p {
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
-}
-
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 /* footer */
@@ -82,9 +81,9 @@ footer {
   border-top: 1px solid #eaeaea;
   color: $lightGray;
   a {
-    color: #555;
+    color: $grayLight;
     &:hover {
-      color: #222;
+      color: $grayDarker;
     }
   }
   small {
