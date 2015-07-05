@@ -1,4 +1,5 @@
 SampleApp::Application.routes.draw do
+  resources :users
   get "users/new"
   #about_path -> '/about'
   #about_url  -> 'http://localhost:3000/about'
