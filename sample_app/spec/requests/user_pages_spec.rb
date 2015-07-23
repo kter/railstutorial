@@ -78,9 +78,9 @@ describe "User Pages" do
     before { visit edit_user_path(user) }
 
     describe "page" do
-      it { sould have_content("Update your profile") }
+      it { should have_content("Update your profile") }
       it { should have_title("Edit user") }
-      it { sould have_link('change', href: "http://gravatar.com/emails") }
+      it { should have_link('change', href: "http://gravatar.com/emails") }
     end
 
     describe "with invalid information" do
